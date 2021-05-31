@@ -75,4 +75,27 @@
 # print('Корень = ', x)
 # z = max(m, n) >= x >= min(m,n)
 # print(z)
+# № 3.2.7
 #
+# Составьте программу, которая запрашивает название футбольной команды и повторяет его на экране со словами
+
+# word = input('Input Football Team:')
+#
+# print(word + ' CHAMPION!!!')
+# print(word.lower() + ' CHAMPION!!!')
+# print('Len team:' + str(len(word)))
+# print('s' in word.lower())
+# print(word.lower().count('s'))
+
+# Составьте программу, которая запрашивает название государства и его столицы, а затем выводит сообщение:
+
+# country = input('Enter country: ')
+# capital = input('Enter capital: ')
+# print('The state {0}, the capital of {{1}' .format(country, capital))
+
+
+# Дано слово объектно-ориентированный. Используя индексацию и срезы составьте из него слова объект, ориентир, тир, кот, рента и выведите их на экран.
+
+word = 'объектно-ориентированный'
+
+print(word.split('-')[0][:6], word.split('-')[0][0:8], word.split('-')[1][5:8], word[4] + word[7] + word[5])
